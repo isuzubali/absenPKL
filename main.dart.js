@@ -47996,14 +47996,14 @@ B.auU.prototype={
 $1(a){return J.d(J.cL(a.i(0,"user"),"nama"),this.a.Q)},
 $S:182}
 B.auV.prototype={
-$1(a){var s,r,q,p,o,n=null,m=this.a,l=B.Uv("Laporan Absensi Bulan "+B.j(m.z),B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,16,n,A.dE,n,!0,n,n,n,n),n,n)
+$1(a){var s,r,q,p,o,n=null,m=this.a,l=B.Uv("Laporan Absensi Bulan "+B.j(m.z),B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,14,n,A.dE,n,!0,n,n,n,n),n,n)
 m=m.Q
 m=m!=null?"Nama    : "+m:"Semua Nama"
-m=B.Uv(m,B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,12,n,n,n,!0,n,n,n,n),n,n)
+m=B.Uv(m,B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,10,n,n,n,!0,n,n,n,n),n,n)
 s=this.b
-r=B.Uv("Sekolah :"+B.j(s.length!==0?J.cL(s[0].i(0,"user"),"alamatsekolah"):"-"),B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,12,n,n,n,!0,n,n,n,n),n,n)
-q=B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,10,n,n,n,!0,n,n,n,n)
-p=B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,12,n,A.dE,n,!0,n,n,n,n)
+r=B.Uv("Sekolah :"+B.j(s.length!==0?J.cL(s[0].i(0,"user"),"alamatsekolah"):"-"),B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,10,n,n,n,!0,n,n,n,n),n,n)
+q=B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,8,n,n,n,!0,n,n,n,n)
+p=B.xz(n,n,n,n,n,n,n,n,n,A.fh,n,n,10,n,A.dE,n,!0,n,n,n,n)
 o=B.X(s).h("a0<1,Q<@>>")
 s=B.a4(new B.a0(s,new B.auT(s),o),o.h("al.E"))
 return new B.vg(A.mG,A.aCb,A.F2,A.PU,A.Lc,new B.aaD(),B.b([l,m,r,new B.FB(n,20,n),B.b1_(q,s,p,["No","Tanggal","Clock In","Clock Out","InRadius","OutRadius","Note"])],t.n_))},
